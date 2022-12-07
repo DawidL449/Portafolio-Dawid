@@ -348,3 +348,46 @@ html {
     height: 6px;
     animation: progreso4 2s forwards;
 }
+@keyframes progreso1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes progreso2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes progreso3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+#portfolio{
+    max-width: 1100px;
+    padding:100px 0;
+    margin:auto;
+}
+#portfolio .titulo-seccion{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3 ;
+    text-decoration-thickness: 5px ;
+}
+#portfolio .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
